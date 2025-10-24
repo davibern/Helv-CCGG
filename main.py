@@ -2,9 +2,11 @@ import pytesseract
 import os
 from pdf2image import convert_from_path
 
+# Cambia la ruta de tesseract según tu instalación
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-pdf_path = 'A00 CG11-95 LVN Automoviles junio 1996.pdf'
+# Ruta del PDF y poppler (bin que hayas descargado)
+pdf_path = 'documento.pdf'
 poppler_path = r'C:\poppler-25.07.0\Library\bin'
 
 if not os.path.exists(pdf_path):
