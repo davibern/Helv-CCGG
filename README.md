@@ -13,6 +13,15 @@ Pensado para documentos que están en formato imagen dentro de los PDFs, este sc
 - Biblioteca Pillow.
 - Biblioteca pytesseract.
 
+### Crear un entorno virtual (opcional pero recomendado)
+Puedes crear un entorno virtual para gestionar las dependencias del proyecto:
+
+```bash
+python -m .venv venv
+.venv/Scripts/activate.ps1  # En Windows usa `.venv\Scripts\activate`
+source .venv/bin/activate  # En macOS/Linux
+```
+
 ### Instalación de dependencias
 
 Puedes instalar las bibliotecas necesarias utilizando pip:
